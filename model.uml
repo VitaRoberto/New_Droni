@@ -87,7 +87,7 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_2xAMsJzFEeSvJ_417OGNKA" name="Effettua_Chiamata"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_6R_nMJzFEeSvJ_417OGNKA" clientDependency="_FHmCUJzHEeSvJ_417OGNKA" name="Gestore_Drone">
+  <packagedElement xmi:type="uml:Class" xmi:id="_6R_nMJzFEeSvJ_417OGNKA" clientDependency="_FHmCUJzHEeSvJ_417OGNKA" name="Gestione_Drone">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_7830oJzFEeSvJ_417OGNKA" name="ID" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8HYbgJzFEeSvJ_417OGNKA" value="1"/>
@@ -307,9 +307,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_54TYBpzJEeSvJ_417OGNKA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_3KjC4J4qEeS92N0puXpnUw" name="Comunica_Emergenza">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0LBtEJ_zEeSvUfNrp2Qr1Q" name="point"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3KjC4J4qEeS92N0puXpnUw" name="Comunica_Emergenza"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_CqvIkJ4rEeS92N0puXpnUw" name="A_comunica_emergenza_operatore_ufficio" memberEnd="_CqvIkZ4rEeS92N0puXpnUw _CqvIlJ4rEeS92N0puXpnUw">
       <ownedEnd xmi:type="uml:Property" xmi:id="_CqvIkZ4rEeS92N0puXpnUw" name="comunica_emergenza" type="_3KjC4J4qEeS92N0puXpnUw" association="_CqvIkJ4rEeS92N0puXpnUw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CqvIkp4rEeS92N0puXpnUw" value="1"/>
@@ -324,7 +322,10 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_VGljYJ4sEeS92N0puXpnUw" name="Login"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_X6enUJ4sEeS92N0puXpnUw" name="Logout"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_qOmgMJ_zEeSvUfNrp2Qr1Q" name="Controllo_Codice">
-      <extend xmi:type="uml:Extend" xmi:id="_0Ks88J_zEeSvUfNrp2Qr1Q" extendedCase="_3KjC4J4qEeS92N0puXpnUw" extensionLocation="_0LBtEJ_zEeSvUfNrp2Qr1Q"/>
+      <extend xmi:type="uml:Extend" xmi:id="_0Ks88J_zEeSvUfNrp2Qr1Q" extendedCase="_3KjC4J4qEeS92N0puXpnUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WHU0MKCIEeSBWoR9g33uVA" name="Compila_Modulo">
+      <include xmi:type="uml:Include" xmi:id="_fdLT0KCJEeSBWoR9g33uVA" addition="_3KjC4J4qEeS92N0puXpnUw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_9GsRgJzHEeSvJ_417OGNKA" name="Utente"/>
@@ -595,7 +596,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2HydE5_lEeSvUfNrp2Qr1Q" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_rxhg8J_yEeSvUfNrp2Qr1Q" name="Getsore_Login">
+  <packagedElement xmi:type="uml:Class" xmi:id="_rxhg8J_yEeSvUfNrp2Qr1Q" name="Gestione_Login">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_wT0ncJ_yEeSvUfNrp2Qr1Q" name="Nome" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wdZaMJ_yEeSvUfNrp2Qr1Q" value="1"/>
@@ -614,7 +615,7 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_6U3OkJ_yEeSvUfNrp2Qr1Q" name="Login"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_C3qgoJ_0EeSvUfNrp2Qr1Q" name="Modulo">
+  <packagedElement xmi:type="uml:Class" xmi:id="_C3qgoJ_0EeSvUfNrp2Qr1Q" clientDependency="_C-x2AKCIEeSBWoR9g33uVA" name="Modulo">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GKfjUJ_0EeSvUfNrp2Qr1Q" name="ID" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GWSjoJ_0EeSvUfNrp2Qr1Q" value="1"/>
@@ -633,5 +634,9 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_RsnisJ_0EeSvUfNrp2Qr1Q" name="Stampa"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="__aVWwJ_2EeSvUfNrp2Qr1Q" name="Gestore_Modulo"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__aVWwJ_2EeSvUfNrp2Qr1Q" name="Gestione_Moduli">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_622igKAMEeSR-YU5HpHJ9A" name="Crea_Modulo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_84LrMKCHEeSBWoR9g33uVA" name="Invia_Modulo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_C-x2AKCIEeSBWoR9g33uVA" name="Dependency5" client="_C3qgoJ_0EeSvUfNrp2Qr1Q" supplier="__aVWwJ_2EeSvUfNrp2Qr1Q"/>
 </uml:Model>
