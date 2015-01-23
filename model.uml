@@ -36,6 +36,12 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ygMycKLyEeSmccMWkcltFg" name="Stato">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cMJsIKLzEeSmccMWkcltFg" name="Area">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_8vQJQJzEEeSvJ_417OGNKA" name="Get_ID_Drone"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_DyFS0JzFEeSvJ_417OGNKA" name="Decolla"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_GXP-QJzFEeSvJ_417OGNKA" name="Get_Coordinate"/>
@@ -98,6 +104,9 @@
       </defaultValue>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_GALFkJzGEeSvJ_417OGNKA" name="Attiva_Drone"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_P0rOkKLyEeSmccMWkcltFg" name="Get_Lista_Droni"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XX3TMKLyEeSmccMWkcltFg" name="Stato_Drone"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_48VS8KLzEeSmccMWkcltFg" name="Seleziona_Droni"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JRvkAJzGEeSvJ_417OGNKA" name="Operatore_Ufficio" visibility="package">
     <generalization xmi:type="uml:Generalization" xmi:id="_7lLJAKLpEeSmccMWkcltFg" general="_a1EI8KLpEeSmccMWkcltFg"/>
@@ -190,8 +199,13 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_FHmCUJzHEeSvJ_417OGNKA" name="Dependency3" client="_6R_nMJzFEeSvJ_417OGNKA" supplier="_JRvkAJzGEeSvJ_417OGNKA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_F63SUJzHEeSvJ_417OGNKA" name="Dependency4" client="_0E_kUJzDEeSvJ_417OGNKA" supplier="_6R_nMJzFEeSvJ_417OGNKA"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_LwNVEJzHEeSvJ_417OGNKA" name="Chiamata" visibility="private">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_7cqJYKLtEeSmccMWkcltFg">
+      <body> Attore: Addetto Drone</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BL-coKLuEeSmccMWkcltFg" name="" type="__aVWwJ_2EeSvUfNrp2Qr1Q"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_nKNMEJzHEeSvJ_417OGNKA" name="Lifeline"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_Ur4gQJ1vEeSZI42tr3NKTA" name="Lifeline0"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Ur4gQJ1vEeSZI42tr3NKTA" name="Lifeline0" represents="_BL-coKLuEeSmccMWkcltFg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ic3OgKLuEeSmccMWkcltFg" name="Addetto_Drone"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_30uBkJzHEeSvJ_417OGNKA" name="Droni_Di_Controllo">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_G0VbgJzIEeSvJ_417OGNKA" name="Chiamata"/>
@@ -566,7 +580,9 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__aVWwJ_2EeSvUfNrp2Qr1Q" name="Gestione_Moduli">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_622igKAMEeSR-YU5HpHJ9A" name="Crea_Modulo"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_84LrMKCHEeSBWoR9g33uVA" name="Invia_Modulo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_84LrMKCHEeSBWoR9g33uVA" name="Invia_Moduli"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iZtsgKLxEeSmccMWkcltFg" name="Modifica_Modulo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qOciMKLzEeSmccMWkcltFg" name="Get_Lista"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_a1EI8KLpEeSmccMWkcltFg" name="Impiegato">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ePj54KLpEeSmccMWkcltFg" name="ID">
@@ -600,4 +616,5 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JZz9k6LqEeSmccMWkcltFg" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_PA_ZwKLwEeSmccMWkcltFg" client="_6R_nMJzFEeSvJ_417OGNKA" supplier="__aVWwJ_2EeSvUfNrp2Qr1Q"/>
 </uml:Model>
