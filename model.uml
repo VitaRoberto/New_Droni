@@ -88,38 +88,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_2xAMsJzFEeSvJ_417OGNKA" name="Effettua_Chiamata"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_6R_nMJzFEeSvJ_417OGNKA" name="Gestione_Drone">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_7830oJzFEeSvJ_417OGNKA" name="ID" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8HYbgJzFEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8HZCkJzFEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_8HaQsJzFEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9WPbUJzFEeSvJ_417OGNKA" name="Nome" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9hPxcJzFEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9hQYgJzFEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9hQ_kJzFEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-29nMJzFEeSvJ_417OGNKA" name="Cognome" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__G-ZIJzFEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__HEfwJzFEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="__HGU8JzFEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Aug-sJzGEeSvJ_417OGNKA" name="Password" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A63_sJzGEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A65N0JzGEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_A6504JzGEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
+    <generalization xmi:type="uml:Generalization" xmi:id="_9jQmUKLpEeSmccMWkcltFg" general="_a1EI8KLpEeSmccMWkcltFg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_C5N7sJzGEeSvJ_417OGNKA" name="Emergenza" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DHY6kJzGEeSvJ_417OGNKA" value="1"/>
@@ -128,42 +97,10 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_E_UFgJzGEeSvJ_417OGNKA" name="Login"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_GALFkJzGEeSvJ_417OGNKA" name="Attiva_Drone"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JRvkAJzGEeSvJ_417OGNKA" name="Operatore_Ufficio" visibility="package">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_LpJgQJzGEeSvJ_417OGNKA" name="ID" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L0nwcJzGEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L0o-kJzGEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_L0qMsJzGEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_N-ow8JzGEeSvJ_417OGNKA" name="Nome" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OLrHYJzGEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OLsVgJzGEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_OLuKsJzGEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_PNi0EJzGEeSvJ_417OGNKA" name="Cognome" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PYPBIJzGEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PYPoMJzGEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_PYQ2UJzGEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_QaWlcJzGEeSvJ_417OGNKA" name="Password" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QlXioJzGEeSvJ_417OGNKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QlYwwJzGEeSvJ_417OGNKA" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Qlal8JzGEeSvJ_417OGNKA">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
+    <generalization xmi:type="uml:Generalization" xmi:id="_7lLJAKLpEeSmccMWkcltFg" general="_a1EI8KLpEeSmccMWkcltFg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_SW-DIJzGEeSvJ_417OGNKA" name="Cod_Emergenza" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Se5QEJzGEeSvJ_417OGNKA" value="1"/>
@@ -180,7 +117,10 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Xc-ToJzGEeSvJ_417OGNKA" name="Login"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__R2PEKLpEeSmccMWkcltFg" name="modulo" type="_C3qgoJ_0EeSvUfNrp2Qr1Q" association="__R4EQKLpEeSmccMWkcltFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__R2PEaLpEeSmccMWkcltFg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__R2PEqLpEeSmccMWkcltFg" value="*"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Yek6kJzGEeSvJ_417OGNKA" name="Analizza_Chiamata"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Z-U2EJzGEeSvJ_417OGNKA" name="Comunica_Emergenza"/>
   </packagedElement>
@@ -597,24 +537,9 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_rxhg8J_yEeSvUfNrp2Qr1Q" name="Gestione_Login">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_wT0ncJ_yEeSvUfNrp2Qr1Q" name="Username" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wdZaMJ_yEeSvUfNrp2Qr1Q" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wde5wJ_yEeSvUfNrp2Qr1Q" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_wdgH4J_yEeSvUfNrp2Qr1Q">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_0zhs8J_yEeSvUfNrp2Qr1Q" name="Password" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1JhLEJ_yEeSvUfNrp2Qr1Q" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1JmqoJ_yEeSvUfNrp2Qr1Q" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_1Jn4wJ_yEeSvUfNrp2Qr1Q">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_6U3OkJ_yEeSvUfNrp2Qr1Q" name="Login"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_D_JhYKJKEeSiLpFdtYbbqg" name="Logout"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SdRiIKLqEeSmccMWkcltFg" name="Registrazione"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_C3qgoJ_0EeSvUfNrp2Qr1Q" name="Modulo">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GKfjUJ_0EeSvUfNrp2Qr1Q" name="ID" visibility="public">
@@ -633,11 +558,46 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JZyvcKLqEeSmccMWkcltFg" name="gestione_Moduli" type="__aVWwJ_2EeSvUfNrp2Qr1Q" association="_JZz9kKLqEeSmccMWkcltFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JZyvcaLqEeSmccMWkcltFg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JZyvcqLqEeSmccMWkcltFg" value="*"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_RsnisJ_0EeSvUfNrp2Qr1Q" name="Stampa"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__aVWwJ_2EeSvUfNrp2Qr1Q" name="Gestione_Moduli">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_622igKAMEeSR-YU5HpHJ9A" name="Crea_Modulo"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_84LrMKCHEeSBWoR9g33uVA" name="Invia_Modulo"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_C-x2AKCIEeSBWoR9g33uVA" name="Dependency5" client="_C3qgoJ_0EeSvUfNrp2Qr1Q" supplier="__aVWwJ_2EeSvUfNrp2Qr1Q"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a1EI8KLpEeSmccMWkcltFg" name="Impiegato">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ePj54KLpEeSmccMWkcltFg" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hjS7gKLpEeSmccMWkcltFg" name="Nome">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kksP8KLpEeSmccMWkcltFg" name="Cognome">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_o-5KYKLpEeSmccMWkcltFg" name="Password">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZLyokKLqEeSmccMWkcltFg" name="Username">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wE4VoKLpEeSmccMWkcltFg" name="Login"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xw2vQKLpEeSmccMWkcltFg" name="Logout"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_1dZScKLpEeSmccMWkcltFg" client="_a1EI8KLpEeSmccMWkcltFg" supplier="_rxhg8J_yEeSvUfNrp2Qr1Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__R4EQKLpEeSmccMWkcltFg" memberEnd="__R4EQaLpEeSmccMWkcltFg __R2PEKLpEeSmccMWkcltFg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="__R4EQaLpEeSmccMWkcltFg" name="operatore_Ufficio" type="_JRvkAJzGEeSvJ_417OGNKA" association="__R4EQKLpEeSmccMWkcltFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__R4EQqLpEeSmccMWkcltFg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__R4EQ6LpEeSmccMWkcltFg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JZz9kKLqEeSmccMWkcltFg" memberEnd="_JZz9kaLqEeSmccMWkcltFg _JZyvcKLqEeSmccMWkcltFg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JZz9kaLqEeSmccMWkcltFg" name="modulo" type="_C3qgoJ_0EeSvUfNrp2Qr1Q" association="_JZz9kKLqEeSmccMWkcltFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JZz9kqLqEeSmccMWkcltFg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JZz9k6LqEeSmccMWkcltFg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
