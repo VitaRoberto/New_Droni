@@ -49,6 +49,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_LNhJoJzFEeSvJ_417OGNKA" name="Attivazione_Dispositivi"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_PC9KIJzFEeSvJ_417OGNKA" name="Localizza_Vittima"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_SCe2UJzFEeSvJ_417OGNKA" name="Atterra"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oaFG0Kb_EeSGgP5650HgMg" name="Stato"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_TbOK4JzFEeSvJ_417OGNKA" name="Drone_Soccorso">
     <generalization xmi:type="uml:Generalization" xmi:id="_nRJzgJzFEeSvJ_417OGNKA" general="_0E_kUJzDEeSvJ_417OGNKA"/>
@@ -205,7 +206,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_BL-coKLuEeSmccMWkcltFg" name="" type="__aVWwJ_2EeSvUfNrp2Qr1Q"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_nKNMEJzHEeSvJ_417OGNKA" name="Lifeline"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_Ur4gQJ1vEeSZI42tr3NKTA" name="Lifeline0" represents="_BL-coKLuEeSmccMWkcltFg"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_ic3OgKLuEeSmccMWkcltFg" name="Addetto_Drone"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_DF2l4KcAEeSGgP5650HgMg" name="Lifeline1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_30uBkJzHEeSvJ_417OGNKA" name="Droni_Di_Controllo">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_G0VbgJzIEeSvJ_417OGNKA" name="Chiamata"/>
@@ -576,7 +577,14 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JZyvcaLqEeSmccMWkcltFg" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JZyvcqLqEeSmccMWkcltFg" value="*"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5gHTUKcCEeSGgP5650HgMg" name="Contenuto">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_RsnisJ_0EeSvUfNrp2Qr1Q" name="Stampa"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JTeT0KcCEeSGgP5650HgMg" name="Modifica_Modulo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NydAkKcCEeSGgP5650HgMg" name="Get_Modulo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kYCtYKcCEeSGgP5650HgMg" name="Set_Modulo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_X_VZYKcEEeSGgP5650HgMg" name="Crea_Modulo"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__aVWwJ_2EeSvUfNrp2Qr1Q" name="Gestione_Moduli">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_622igKAMEeSR-YU5HpHJ9A" name="Crea_Modulo"/>
